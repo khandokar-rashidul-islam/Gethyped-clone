@@ -4,7 +4,6 @@ import Services from "@/components/sections/Services/Services";
 import Work from "@/components/sections/Work/Work";
 import Brands from "@/components/sections/Brands/Brands";
 import CTA from "@/components/sections/CTA/CTA";
-import Contact from "@/components/sections/Contact/Contact";
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
       <Work />
       <Brands />
       <CTA />
-      <Contact />
     </div>
   );
 }
