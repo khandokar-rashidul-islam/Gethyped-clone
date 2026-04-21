@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export default function Stats() {
   return (
-    <div className="grid grid-cols-12 py-24 ">
+    <div className="grid grid-cols-12 py-30 ">
       {/* Heading */}
-      <div className="col-start-2 col-span-8 mb-24">
-        <h2 className="text-3xl md:text-7xl font-bold leading-none">
+      <div className="md:col-start-2 col-start-1 lg:col-span-8 col-span-10  mb-24">
+        <h2 className="text-5xl lg:text-6xl font-bold leading-none">
           Wij maken content die opvalt. Die blijft hangen. Die jouw doelgroep
           raakt en jouw merk in beweging brengt. Snel, krachtig en energiek.
         </h2>

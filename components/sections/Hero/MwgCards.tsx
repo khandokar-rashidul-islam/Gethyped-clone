@@ -48,7 +48,10 @@ const BASE_CARD_DATA: Omit<CardData, "initialRotate">[] = [
     className: "bg-gray-200 hidden lg:flex",
   },
 ];
+
 const ROTATIONS = BASE_CARD_DATA.map(() => Math.random() * 18 - 8);
+
+
 
 export default function MwgCards() {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
@@ -73,6 +76,9 @@ export default function MwgCards() {
     </motion.div>
   );
 }
+
+
+
 
 function InteractiveCard({
   data,
@@ -123,7 +129,7 @@ function InteractiveCard({
       onHoverStart={onHoverStart}
       onHoverEnd={onHoverEnd}
       style={{ zIndex: isHovered ? 50 : 1, originX: 0.5, originY: 0.5 }}
-      className={`w-110 h-140 rounded-4xl shadow-xl
+      className={`md:w-110 w-700 lg:h-140 h-80 rounded-4xl shadow-xl
         flex flex-col justify-center overflow-hidden
         relative cursor-pointer -mx-4 ${data.className}`}
     >

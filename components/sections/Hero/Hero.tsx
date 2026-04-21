@@ -8,8 +8,8 @@ export default function Hero() {
     <div className="pt-48 pb-15.75 ">
       {/* Hero content */}
       <div className="flex flex-col gap-8">
-        <div className="w-2/3 ">
-          <h1 className="text-[115px]  font-bold leading-none ">
+        <div className="lg:w-2/3 ">
+          <h1 className=" text-7xl md:text-6xl lg:text-[115px]  font-bold leading-none ">
             Get Hyped. Get Noticed. Get Results.
           </h1>
         </div>

@@ -84,7 +84,7 @@ const EXPERTISE_DATA: ExpertiseData[] = [
 ];
 
 
-export default function ExpertiseSection() {
+export default function Services() {
   const container = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -99,6 +99,8 @@ export default function ExpertiseSection() {
         position: "relative",
         height: `${EXPERTISE_DATA.length * 100}vh`,
       }}
+
+      className="py-28"
     >
       {EXPERTISE_DATA.map((project, i) => {
         return (
